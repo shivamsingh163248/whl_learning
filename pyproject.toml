@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab-report-tool"
+version = "0.1.0"
+description = "A small laboratory result analysis and reporting tool."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "PythonProject"},
+]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+lab-report = "lab_report_tool.cli:main"
+lab-report-main = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
