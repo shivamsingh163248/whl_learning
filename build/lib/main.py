@@ -1,6 +1,6 @@
-"""Packaged application entry point."""
+"""Packaged laboratory report entry point."""
 
-from greeting_tool.cli import main
+from lab_report_tool.cli import main
 
 __all__ = ["main"]
 
