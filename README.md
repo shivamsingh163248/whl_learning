@@ -43,4 +43,12 @@ results = [
 ]
 print(format_report("Test Patient", results))
 ```
+
+## Run tests
+
+From the project directory:
+
+```powershell
+python -m unittest discover -s tests -v
+```
 # whl_learning

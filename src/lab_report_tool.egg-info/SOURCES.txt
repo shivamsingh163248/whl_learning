@@ -9,3 +9,4 @@ src/lab_report_tool.egg-info/SOURCES.txt
 src/lab_report_tool.egg-info/dependency_links.txt
 src/lab_report_tool.egg-info/entry_points.txt
 src/lab_report_tool.egg-info/top_level.txt
+tests/test_lab_report_tool.py
